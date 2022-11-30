@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #083b4c;
+}
+
+.container{
+    max-width: 840px;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.square{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    width: 75px;
+    height: 75px;
+}
+
+.square-normal{
+    background-color: #1389b2;
+}
+
+.square-fizz{
+    background-color: #0cd6a1;
+}
+
+.square-buzz{
+    background-color: #ffd166;
+}
+
+.square-fizzbuzz{
+    background-color: #f0466f;
+}
