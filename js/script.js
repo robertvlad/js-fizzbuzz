@@ -7,3 +7,18 @@
 // 3 - Creare un container nel DOM e mostare per ogni elemento il numero o la stringa associata
 // 4 - Definire un colore diverso per ongi tipologia di output
 
+for (let i=1; i<=100; i++){
+
+    if (i % 3 == 0 && i % 5 == 0){
+        console.log("FizzBuzz")
+    }
+    else if (i % 3 == 0){
+        console.log("Fizz")
+    }
+    else if (i % 5 == 0){
+        console.log("Buzz")
+    }
+    else{
+        console.log(i)
+    }
+}
